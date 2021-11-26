@@ -1,0 +1,60 @@
+<div class="row mx-auto">
+  <div class="col-4">
+    <div class="div-img"></div>
+  </div>
+  <div class="col-8">
+    <div class="section">
+      <h1 class="text-center mb-5 mt-5" id="pixels">
+        Please Log In <i class="fas fa-sign-in-alt"></i>
+      </h1>
+      <div *ngIf="isLoading" id="spinner">
+        <app-loading-spinner></app-loading-spinner>
+      </div>
+      <div *ngIf="error" class="alert alert-danger" id="er">
+        <p>{{ error }}</p>
+      </div>
+      <div class="maindiv" *ngIf="!isLoading">
+        <form #authForm="ngForm" (ngSubmit)="onSubmit(authForm)">
+          <label for="mail">E-Mail</label>
+          <input
+            type="email"
+            id="mail"
+            class="form-control"
+            name="email"
+            ngModel
+            required
+            email
+          />
+          <label for="pass">Password</label>
+          <input
+            type="password"
+            placeholder="MinLenght 6"
+            id="pass"
+            class="form-control"
+            name="password"
+            ngModel
+            required
+            minlength="6"
+          />
+          <hr />
+          <div class="btns">
+            <button
+              class="btn btn-info"
+              type="submit"
+              [disabled]="!authForm.valid"
+            >
+              {{ isLoginMode ? "Login" : "Sign Up" }}
+            </button>
+            <button
+              class="btn btn-success"
+              type="button"
+              (click)="onSwitchMode()"
+            >
+              {{ isLoginMode ? "Sign Up" : "Login" }}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

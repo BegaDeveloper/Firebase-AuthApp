@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user": "Amir Avdic",
+      "mail": "amir_avd@gmail.com"
+    },
+    {
+      "id": 2,
+      "user": "Ismar Begic",
+      "mail": "ismarbegic124@gmail.com",
+      "pass": "ismarismar123",
+      "pass2": "ismarismar123"
+    },
+    {
+      "id": 3,
+      "user": "Sanel Music",
+      "mail": "sanel_123@gmail.com",
+      "pass": "sanelsanel123",
+      "pass2": "sanelsanel123"
+    }
+  ]
+}

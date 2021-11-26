@@ -1,0 +1,44 @@
+#list {
+  margin: 0 60px 0 auto;
+}
+
+#list li {
+  margin-right: 15px;
+}
+
+#img-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#img-nav img {
+  margin-left: 230px;
+}
+
+.fa-plus {
+  color: rgb(41, 158, 41);
+}
+
+#link {
+  color: #262626;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+
+#link:hover {
+  color: #3399ff;
+}
+
+@media (max-width: 950px) {
+  #img-nav {
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    margin-left: 20px;
+  }
+  #img-nav img {
+    margin-left: 20px;
+  }
+}
