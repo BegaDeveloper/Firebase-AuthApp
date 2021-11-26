@@ -1,4 +1,36 @@
 # AuthApp
+# VIDEO FILE HOW THE APP WORKS included: https://vimeo.com/650292047
+# AUTH APP with Angular, Firebase and HTTP requests
+
+# Made with:
+
+1. Angular
+2. Firebase
+3. json-server
+
+# NPM packages:
+
+1. SubSink for eazy unsubscribing (npm i subsink)
+2. json-server (npm i -g json-server)
+
+# CSS:
+
+1. Bootstrap
+
+# Backend:
+
+1. Firebase
+
+# Routing:
+
+1. Lazy Loading
+
+# Starting the app
+# download the file
+# npm install
+# npm i -g json-server
+# npm i subsink
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
