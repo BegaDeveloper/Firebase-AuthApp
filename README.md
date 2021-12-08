@@ -10,7 +10,7 @@
 
 # NPM packages:
 
-1. SubSink for eazy unsubscribing (npm i subsink)
+1. SubSink for easy unsubscribing (npm i subsink)
 2. json-server (npm i -g json-server)
 
 # CSS:
